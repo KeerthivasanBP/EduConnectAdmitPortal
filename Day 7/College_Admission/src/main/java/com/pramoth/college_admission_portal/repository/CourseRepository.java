@@ -1,0 +1,9 @@
+package com.pramoth.college_admission_portal.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.pramoth.college_admission_portal.model.Courses;
+
+public interface CourseRepository extends JpaRepository<Courses,String> {
+    
+}
